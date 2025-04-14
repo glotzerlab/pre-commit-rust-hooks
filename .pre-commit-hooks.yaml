@@ -5,6 +5,7 @@
     - rust
   language: system
   entry: cargo fmt
+  pass_filenames: false
   args:
     - --
 - id: fmt-check
